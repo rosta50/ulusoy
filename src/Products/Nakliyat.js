@@ -1,17 +1,19 @@
 import React from 'react';
-import { Nav, Menu, Breadcrumb, Footer, Features, about, AboutUS } from '../Partials/Ui';
+import { Nav, Menu, Breadcrumb, Footer } from '../Partials/Ui';
 
-export default class About extends React.Component{
+export default class  Nakliyat extends React.Component{
     render(){
 
         const data = [
-           
             {
-                text: "Hakkımızda"
+                text: "Ürünler" 
+            },
+            {
+                text: "Nakliyat"
             }
         ];
 
-        const active = "Hakkımızda"
+        const active = "Nakliyat"
 
         return (
             <div>
@@ -20,8 +22,6 @@ export default class About extends React.Component{
                 {
                     <Breadcrumb item={data} active={active}/>
                 }
-                <Features/>
-                <AboutUS/>            
                 <Footer/>
             </div>
         )
