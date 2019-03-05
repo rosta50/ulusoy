@@ -10,6 +10,7 @@ import Travel from './Products/Travel';
 import Konut from './Products/Konut';
 import About from './Components/About';
 import Contact from "./Components/Contact";
+import Rehber from './Components/Rehber';
 
 export default class Root extends React.Component{
 
@@ -25,7 +26,8 @@ export default class Root extends React.Component{
                     <Route path="/urunlerimiz/nakliyat" component={Nakliyat} />
                     <Route path="/urunlerimiz/konut" component={Konut} />
                     <Route path="/hakkımızda" component={About} />
-                    <Route path="/bize-ulaşın" component={Contact} />
+                    <Route path="/contact   " component={Contact} />
+                    <Route path="/rehber" component= {Rehber} /> 
                     <Redirect to = "/"></Redirect> 
                 </Switch>
             </div>

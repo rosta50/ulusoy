@@ -1,19 +1,17 @@
 import React from 'react';
-import { Nav, Menu, Breadcrumb, Footer, KaskoDetail} from '../Partials/Ui';
+import { Nav, Menu, Breadcrumb, Footer, Rehber } from '../Partials/Ui';
 
-export default class Kasko extends React.Component{
+export default class Rehber extends React.Component{
     render(){
 
         const data = [
+            
             {
-                text: "Ürünler" 
-            },
-            {
-                text: "Kasko"
+                text: "Sigorta Rehberi"
             }
         ];
 
-        const active = "Kasko"
+        const active = "Rehber"
 
         return (
             <div>
@@ -22,7 +20,7 @@ export default class Kasko extends React.Component{
                 {
                     <Breadcrumb item={data} active={active}/>
                 }
-                <KaskoDetail />
+                <Rehber/>
                 <Footer/>
             </div>
         )

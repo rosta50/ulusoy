@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, Menu, Breadcrumb, Footer, Features } from '../Partials/Ui';
+import { Nav, Menu, Breadcrumb, Footer, Features, ContactUs } from '../Partials/Ui';
 
 export default class Contact extends React.Component{
     render(){
@@ -20,7 +20,8 @@ export default class Contact extends React.Component{
                 {
                     <Breadcrumb item={data} active={active}/>
                 }
-               
+
+                <ContactUs/>
                 <Footer/>
             </div>
         )

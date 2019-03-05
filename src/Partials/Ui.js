@@ -42,50 +42,46 @@ export const Menu = props => {
             <nav className="in-navigation">
               <ul>
                 <li>
-                  <a href="/hakkımızda">Hakkımızda</a>
+                  <a href="/urunlerimiz/kasko"><i className="zmdi zmdi-car zmdi-hc-lg" />  Kasko</a>
+                </li>
+                <li>
+                  <a href="/urunlerimiz/trafik">
+                    <i className="zmdi zmdi-traffic zmdi-hc-lg" /> Trafik
+                  </a>
+                </li>
+                <li>
+                  <a href="/urunlerimiz/saglik">
+                    <i className="zmdi zmdi-hospital zmdi-hc-lg" /> Sağlık
+                  </a>
+                </li>
+                <li>
+                    <a href="/urunlerimiz/konut">
+                      <i className="zmdi zmdi-home zmdi-hc-lg"/> Konut
+                    </a>
                 </li>
                 <li className="in-dropdown">
-                  <a href="/urunlerimiz">Ürünlerimiz</a>
+                  <a href="#">Diğer Ürünler</a>
                   <ul>
-                    <li>
-                      <a href="/urunlerimiz/kasko">
-                        <i className="zmdi zmdi-car zmdi-hc-lg" /> Kasko
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/urunlerimiz/trafik">
-                        <i className="zmdi zmdi-traffic zmdi-hc-lg" /> Trafik
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/urunlerimiz/saglik">
-                        <i className="zmdi zmdi-hospital zmdi-hc-lg" /> Sağlık
-                      </a>
-                    </li>
                     <li>
                       <a href="/urunlerimiz/seyahat">
                         <i className="zmdi zmdi-airplane zmdi-hc-lg" /> Seyahat
                       </a>
                     </li>
                     <li>
-                      <a href="/urunlerimiz/nakliyat">
-                        <i className="zmdi zmdi-truck zmdi-hc-lg" /> Nakliyat
+                      <a href="/urunlerimiz/seyahat">
+                        <i className="zmdi zmdi-favorite zmdi-hc-lg" />  Hayat
                       </a>
                     </li>
+                    
                     <li>
-                      <a href="/urunlerimiz/konut">
-                        <i
-                          className="zmdi zmdi-home zmdi-hc-lg"
-                          zmdi-hc-lg={""}
-                        />{" "}
-                        Konut
+                      <a href="/urunlerimiz/nakliyat">
+                        <i className="zmdi zmdi-truck zmdi-hc-lg" />  Nakliyat
                       </a>
                     </li>
+                   
                   </ul>
                 </li>
-                <li>
-                  <a href="/bize-ulaşın">Bize Ulaşın</a>
-                </li>
+              
               </ul>
             </nav>
             {/*// Main Navigation */}
@@ -233,9 +229,9 @@ export const Footer = () => {
                     <i className="zmdi zmdi-phone" />
                   </span>
                   <p>
-                    <a href="#">+0884567863</a>
+                    <a href="#">0(216)-565-14-86</a>
                     <br />
-                    <a href="#">+0884567863</a>
+                    <a href="#">0(533)-667-56-35</a>
                   </p>
                 </div>
               </div>
@@ -244,7 +240,8 @@ export const Footer = () => {
                   <span className="footer-contact-icon">
                     <i className="zmdi zmdi-home" />
                   </span>
-                  <p>958 Lilyan Junction, Mitchellmouth, Rwanda</p>
+                  <p>Fahrettin Kerim Gökay Cad. No:201/3 Göztepe </p>
+                  
                 </div>
               </div>
               <div className="col">
@@ -253,7 +250,7 @@ export const Footer = () => {
                     <i className="zmdi zmdi-email" />
                   </span>
                   <p>
-                    <a href="#">info@example.com</a>
+                    <a href="#">info@ulusoysigorta.com</a>
                     <br />
                     <a href="#">info2@example.com</a>
                   </p>
@@ -370,16 +367,16 @@ export const Footer = () => {
               <div className="col-lg-6 col-12">
                 <ul className="copyright-links">
                   <li>
-                    <a href="#">Anasayfa</a>
+                    <a href="/">Anasayfa</a>
                   </li>
                   <li>
-                    <a href="#">Hakkımızda</a>
+                    <a href="/hakkımızda">Hakkımızda</a>
                   </li>
                   <li>
-                    <a href="#">Ürünlerimiz</a>
+                    <a href="urunler">Ürünlerimiz</a>
                   </li>
                   <li>
-                    <a href="#">İletişim</a>
+                    <a href="/contact">İletişim</a>
                   </li>
                   
                 </ul>
@@ -630,16 +627,16 @@ export const Rehber  = () => {
             <div className="col-lg-4">
               <div className="in-blog mt-30">
                 <div className="in-blog-image">
-                  <a href="#">
+                  <a href="/rehber">
                     <img src="assets/images/blog/blog-image-1.jpg" alt="blog image" />
                   </a>
                 </div>
                 <div className="in-blog-content">
                   <div className="in-blog-metatop">
                     <span>15 Mart, 2019</span>
-                    <span><a href="#">Devamını Oku...</a></span>
+                    <span><a href="/rehber">Devamını Oku...</a></span>
                   </div>
-                  <h4 className="in-blog-title"><a href="#">Sağlık Sigortası Nedir?</a></h4>
+                  <h4 className="in-blog-title"><a>Sağlık Sigortası Nedir?</a></h4>
                   <p>Lorem ipsum dolor sit amet, consecte adipicing elit, sed do eiusmod tempor </p>
                   <div className="in-blog-authorimage">
                     <span>
@@ -654,16 +651,16 @@ export const Rehber  = () => {
             <div className="col-lg-4">
               <div className="in-blog mt-30">
                 <div className="in-blog-image">
-                  <a href="#">
+                  <a href="/rehber">
                     <img src="assets/images/blog/blog-image-2.jpg" alt="blog image" />
                   </a>
                 </div>
                 <div className="in-blog-content">
                   <div className="in-blog-metatop">
                     <span>15 Mart, 2019</span>
-                    <span><a href="#">Devamını Oku...</a></span>
+                    <span><a href="/rehber">Devamını Oku...</a></span>
                   </div>
-                  <h4 className="in-blog-title"><a href="#">Neden Hayat Sigortası Yaptrmalıyız?</a></h4>
+                  <h4 className="in-blog-title"><a>Neden Hayat Sigortası Yaptrmalıyız?</a></h4>
                   <p>Lorem ipsum dolor sit amet, consecte adipicing elit, sed do eiusmod tempor </p>
                   <div className="in-blog-authorimage">
                     <span>
@@ -678,16 +675,16 @@ export const Rehber  = () => {
             <div className="col-lg-4">
               <div className="in-blog mt-30">
                 <div className="in-blog-image">
-                  <a href="#">
+                  <a href="/rehber">
                     <img src="assets/images/blog/blog-image-3.jpg" alt="blog image" />
                   </a>
                 </div>
                 <div className="in-blog-content">
                   <div className="in-blog-metatop">
                     <span>15 Mart, 2019</span>
-                    <span><a href="#">Devamını Oku...</a></span>
+                    <span><a href="/rehber">Devamını Oku...</a></span>
                   </div>
-                  <h4 className="in-blog-title"><a href="#">İşyeri Sigortası Neleri Kapsar?</a></h4>
+                  <h4 className="in-blog-title"><a>İşyeri Sigortası Neleri Kapsar?</a></h4>
                   <p>Lorem ipsum dolor sit amet, consecte adipicing elit, sed do eiusmod tempor </p>
                   <div className="in-blog-authorimage">
                     <span>
@@ -702,16 +699,16 @@ export const Rehber  = () => {
             <div className="col-lg-4">
               <div className="in-blog mt-30">
                 <div className="in-blog-image">
-                  <a href="#">
+                  <a href="/rehber">
                     <img src="assets/images/blog/blog-image-5.jpg" alt="blog image" />
                   </a>
                 </div>
                 <div className="in-blog-content">
                   <div className="in-blog-metatop">
                     <span>15 Mart, 2019</span>
-                    <span><a href="#">Devamını Oku...</a></span>
+                    <span><a href="/rehber">Devamını Oku...</a></span>
                   </div>
-                  <h4 className="in-blog-title"><a href="#">Konut Sigortası Yaptırırken Nelere Dikkat Edilmeli?</a></h4>
+                  <h4 className="in-blog-title"><a>Konut Sigortası Yaptırırken Nelere Dikkat Edilmeli?</a></h4>
                   <p>Lorem ipsum dolor sit amet, consecte adipicing elit, sed do eiusmod tempor </p>
                   <div className="in-blog-authorimage">
                     <span>
@@ -726,16 +723,16 @@ export const Rehber  = () => {
             <div className="col-lg-4">
               <div className="in-blog mt-30">
                 <div className="in-blog-image">
-                  <a href="#">
+                  <a href="/rehber">
                     <img src="assets/images/blog/blog-image-3.jpg" alt="blog image" />
                   </a>
                 </div>
                 <div className="in-blog-content">
                   <div className="in-blog-metatop">
                     <span>15 Mart, 2019</span>
-                    <span><a href="#">Devamını Oku...</a></span>
+                    <span><a href="/rehber">Devamını Oku...</a></span>
                   </div>
-                  <h4 className="in-blog-title"><a href="#">We are leading insurance
+                  <h4 className="in-blog-title"><a>We are leading insurance
                       service.</a></h4>
                   <p>Lorem ipsum dolor sit amet, consecte adipicing elit, sed do eiusmod tempor </p>
                   <div className="in-blog-authorimage">
@@ -751,16 +748,16 @@ export const Rehber  = () => {
             <div className="col-lg-4">
               <div className="in-blog mt-30">
                 <div className="in-blog-image">
-                  <a href="#">
+                  <a href="/rehber">
                     <img src="assets/images/blog/blog-image-3.jpg" alt="blog image" />
                   </a>
                 </div>
                 <div className="in-blog-content">
                   <div className="in-blog-metatop">
                     <span>15 Mart, 2019</span>
-                    <span><a href="#">Devamını Oku...</a></span>
+                    <span><a href="/rehber">Devamını Oku...</a></span>
                   </div>
-                  <h4 className="in-blog-title"><a href="#">We are leading insurance
+                  <h4 className="in-blog-title"><a>We are leading insurance
                       service.</a></h4>
                   <p>Lorem ipsum dolor sit amet, consecte adipicing elit, sed do eiusmod tempor </p>
                   <div className="in-blog-authorimage">
@@ -780,7 +777,102 @@ export const Rehber  = () => {
   );
 }
 
+//Rehberlik 
+export const Rehberlik = () =>{
+  return (
+    <div>
+      {/* Blog Area */}
+      <div className="blogs-area in-section section-padding-lg bg-white">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-6">
+              <div className="section-title text-center">
+                <h6>SİZLER İÇİN EN İYİSİ</h6>
+                <h2>Sigorta Rehberi</h2>
+              </div>
+            </div>
+          </div>
+          <div className="row blog-slider-active in-slidearrow">
+            {/* Single Blog */}
+            <div className="col-lg-4">
+              <div className="in-blog mt-30">
+                <div className="in-blog-image">
+                  <a href="/rehber">
+                    <img src="assets/images/blog/blog-image-1.jpg" alt="blog image" />
+                  </a>
+                </div>
+                <div className="in-blog-content">
+                  <div className="in-blog-metatop">
+                    <span>15 Mart, 2019</span>
+                    <span><a href="/rehber">Devamını Oku...</a></span>
+                  </div>
+                  <h4 className="in-blog-title"><a>Sağlık Sigortası Nedir?</a></h4>
+                  <p>Lorem ipsum dolor sit amet, consecte adipicing elit, sed do eiusmod tempor </p>
+                  <div className="in-blog-authorimage">
+                    <span>
+                      <img src="assets/images/blog/author-image/author-image-1.png" alt="author image" />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/*// Single Blog */}
+            {/* Single Blog */}
+            <div className="col-lg-4">
+              <div className="in-blog mt-30">
+                <div className="in-blog-image">
+                  <a href="/rehber">
+                    <img src="assets/images/blog/blog-image-2.jpg" alt="blog image" />
+                  </a>
+                </div>
+                <div className="in-blog-content">
+                  <div className="in-blog-metatop">
+                    <span>15 Mart, 2019</span>
+                    <span><a href="/rehber">Devamını Oku...</a></span>
+                  </div>
+                  <h4 className="in-blog-title"><a>Neden Hayat Sigortası Yaptrmalıyız?</a></h4>
+                  <p>Lorem ipsum dolor sit amet, consecte adipicing elit, sed do eiusmod tempor </p>
+                  <div className="in-blog-authorimage">
+                    <span>
+                      <img src="assets/images/blog/author-image/author-image-2.png" alt="author image" />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/*// Single Blog */}
+            {/* Single Blog */}
+            <div className="col-lg-4">
+              <div className="in-blog mt-30">
+                <div className="in-blog-image">
+                  <a href="/rehber">
+                    <img src="assets/images/blog/blog-image-3.jpg" alt="blog image" />
+                  </a>
+                </div>
+                <div className="in-blog-content">
+                  <div className="in-blog-metatop">
+                    <span>15 Mart, 2019</span>
+                    <span><a href="/rehber">Devamını Oku...</a></span>
+                  </div>
+                  <h4 className="in-blog-title"><a>İşyeri Sigortası Neleri Kapsar?</a></h4>
+                  <p>Lorem ipsum dolor sit amet, consecte adipicing elit, sed do eiusmod tempor </p>
+                  <div className="in-blog-authorimage">
+                    <span>
+                      <img src="assets/images/blog/author-image/author-image-3.png" alt="author image" />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/*// Single Blog */}
+          </div>
+        </div>
+      </div>
+      {/*// Blog Area */}
+    </div>  
+  );
 
+} 
 
 // Hakkımızda içerik
 export const Features = () => {
@@ -825,7 +917,6 @@ export const Features = () => {
   );
 }
 
-
 export const AboutUS = () => {
   return (
     <div>  
@@ -863,4 +954,411 @@ export const AboutUS = () => {
       {/*// About Area */}
     </div>  
   );
+}
+
+
+//contact-us
+export const ContactUs = () => {
+  return (
+    <div>
+      {/* Page Conttent */}
+      <main className="page-content">
+        {/* Contact Area */}
+        <div className="contact-area in-section section-padding-xs">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-6">
+                <div className="section-title text-center">
+                  <h6>Dilediğiniz Zaman</h6>
+                  <h2>Bize Ulaşın</h2>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-12">
+                {/* contact-form-warp Start */}
+                <div className="contact-form-warp">
+                  <form id="contact-form" action="http://demo.hasthemes.com/gregory-v1/mail.php" method="post">
+                    <div className="row">
+                      <div className="col-lg-6 col-md-6">
+                        <div className="input-box">
+                          <input name="name" placeholder="Adınız*" type="text" />
+                        </div>
+                      </div>
+                      <div className="col-lg-6 col-md-6">
+                        <div className="input-box">
+                          <input name="name" placeholder="Soyadınız *" type="text" />
+                        </div>
+                      </div>
+                      <div className="col-lg-6 col-md-6">
+                        <div className="input-box">
+                          <input name="email" placeholder="Email Adresi *" type="email" />
+                        </div>
+                      </div>
+                      <div className="col-lg-6 col-md-6">
+                        <div className="input-box">
+                          <input name="phone" placeholder="Tel *" type="text" />
+                        </div>
+                      </div>
+                      <div className="col-lg-12">
+                        <div className="input-box">
+                          <textarea name="message" placeholder="İletiniz *" defaultValue={""} />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="contact-submit-btn text-center">
+                      <button type="submit" className="submit-btn default-btn">GÖNDERİN</button>
+                      <p className="form-messege" />
+                    </div>
+                  </form>
+                </div>
+                {/* contact-form-warp End */}
+              </div>
+            </div>
+
+          </div>
+        </div>
+        {/*// Services Area */}
+      </main>
+      {/*// Page Conttent */}
+    </div>  
+  );
+}
+
+//ürün
+
+export const KaskoDetail = () => {
+      return (
+      <div>
+        {/* Services Details Area */}
+        <div className="services-details-area in-section section-padding-lg">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-8 pr-0">
+                <div className="service-details-content">
+                  {/* service-details-img */}
+                  <div className="service-details-img" data-black-overlay={4}>
+                    <img src="assets/images/services/service-details-image.jpg" alt="service Details" />
+                  </div>
+                  {/*// service-details-img */}
+                  <div className="car-insurance mt-50">
+                    <h4>KASKO</h4>
+                    <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                  </div>
+                  <blockquote className="service-blockquote mt-50">
+                    <span className="top-overlay" />
+                    <span className="bottom-overlay" />
+                    <p>Deserunt mollit anim id est laborum. Sed ut persp iciatis unde omnis iste naerror sit voluptatem accusantium doloremque laudantium, totam rem aperiaeaque ipsa qura incidunt ut labore et dolore magnam aliquam quae.</p>
+                  </blockquote>
+                  <div className="car-insurance mt-50">
+                    <h4>Get the Right Coverage</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia </p>
+                  </div>
+                  <ul className="ul-style-2">
+                    <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</li>
+                    <li> veniam, quis nostrud exercitation ullamco laboris nisi  <br /> ut aliquip ex ea commodo consequat. Duis </li>
+                    <li> veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <br /> ex ea commodo consequat. Duis </li>
+                  </ul>
+                 
+                  <div className="car-insurance mt-50">
+                    <h4>Neden Kasko Sigortasına İhtiyaç Duyarız?</h4>
+                    <ul className="ul-style-2">
+                      <li>Lorem ipsum dolor sit amet, ciit in voluptate velit esse cillum.</li>
+                      <li>Tempor at. Duis aute irure dolor in reprehenderit in voluptate veldolou fugiat nulla paria turat.</li>
+                      <li>Omnis iste natus error sit voluptatem accusantium doloremque laudantiuquae ab illo inventore veritatis et
+                        quasi dolorem.</li>
+                      <li>Do eiusmod tempor incididunt ut labore et dolore masit amet.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 pl-0 offset-lg-1">
+                <div className="service-widget-categories">
+                  <h4 className="service-widget-title">
+                    <span>Categories</span>
+                  </h4>
+                  <ul className="service-cat-list">
+                    <li><a href="/urunlerimiz/kasko" className="active">Kasko Sigortası</a></li>
+                    <li><a href="/urunlerimiz/hayat">Trafik  Sigortası</a></li>
+                    <li><a href="/urunlerimiz/Konut">Konut Sigortası</a></li>
+                    <li><a href="/urunlerimiz/sağlık">Sağlık Sigortası</a></li>
+                    <li><a href="/urunlerimiz/hayat">Hayat Sigortası</a></li>
+                    <li><a href="/urunlerimiz/seyahat">Seyehat Sigortası</a></li>
+                    <li><a href="/urunlerimiz/nakliyat">Nakliyat-Emtia Sigortası</a></li>
+                   </ul> 
+                  <div className="download-brochure-area">
+                    <h5>Download Brochure</h5>
+                    <p>For emergency help contact us, without any hasitation</p>
+                  </div>
+                  <div className="in-service-side">
+                    <div className="in-service-side-image">
+                      <a href="#">
+                        <img src="./assets/images/services/service-image-1.jpg" alt="service image" />
+                      </a>
+                      <span className="in-service-side-icon">
+                        <img src="assets/images/icons/details-down.png" alt />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/*// Services Details Area */}
+      </div>  
+      );
+}
+
+
+export const HealthDetail = () => {
+      return (
+      <div>
+        {/* Services Details Area */}
+        <div className="services-details-area in-section section-padding-lg">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-8 pr-0">
+                <div className="service-details-content">
+                  {/* service-details-img */}
+                  <div className="service-details-img" data-black-overlay={4}>
+                    <img src="assets/images/services/service-details-image.jpg" alt="service Details" />
+                  </div>
+                  {/*// service-details-img */}
+                  <div className="car-insurance mt-50">
+                    <h4>KASKO</h4>
+                    <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                  </div>
+                  <blockquote className="service-blockquote mt-50">
+                    <span className="top-overlay" />
+                    <span className="bottom-overlay" />
+                    <p>Deserunt mollit anim id est laborum. Sed ut persp iciatis unde omnis iste naerror sit voluptatem accusantium doloremque laudantium, totam rem aperiaeaque ipsa qura incidunt ut labore et dolore magnam aliquam quae.</p>
+                  </blockquote>
+                  <div className="car-insurance mt-50">
+                    <h4>Get the Right Coverage</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia </p>
+                  </div>
+                  <ul className="ul-style-2">
+                    <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</li>
+                    <li> veniam, quis nostrud exercitation ullamco laboris nisi  <br /> ut aliquip ex ea commodo consequat. Duis </li>
+                    <li> veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <br /> ex ea commodo consequat. Duis </li>
+                  </ul>
+                 
+                  <div className="car-insurance mt-50">
+                    <h4>Neden Kasko Sigortasına İhtiyaç Duyarız?</h4>
+                    <ul className="ul-style-2">
+                      <li>Lorem ipsum dolor sit amet, ciit in voluptate velit esse cillum.</li>
+                      <li>Tempor at. Duis aute irure dolor in reprehenderit in voluptate veldolou fugiat nulla paria turat.</li>
+                      <li>Omnis iste natus error sit voluptatem accusantium doloremque laudantiuquae ab illo inventore veritatis et
+                        quasi dolorem.</li>
+                      <li>Do eiusmod tempor incididunt ut labore et dolore masit amet.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 pl-0 offset-lg-1">
+                <div className="service-widget-categories">
+                  <h4 className="service-widget-title">
+                    <span>Categories</span>
+                  </h4>
+                  <ul className="service-cat-list">
+                    <li><a href="/urunlerimiz/kasko" className="active">Kasko Sigortası</a></li>
+                    <li><a href="/urunlerimiz/hayat">Trafik  Sigortası</a></li>
+                    <li><a href="/urunlerimiz/Konut">Konut Sigortası</a></li>
+                    <li><a href="/urunlerimiz/sağlık">Sağlık Sigortası</a></li>
+                    <li><a href="/urunlerimiz/hayat">Hayat Sigortası</a></li>
+                    <li><a href="/urunlerimiz/seyehat">Seyehat Sigortası</a></li>
+                    <li><a href="/urunlerimiz/nakliyat">Nakliyat-Emtia Sigortası</a></li>
+                   </ul> 
+                  <div className="download-brochure-area">
+                    <h5>Download Brochure</h5>
+                    <p>For emergency help contact us, without any hasitation</p>
+                  </div>
+                  <div className="in-service-side">
+                    <div className="in-service-side-image">
+                      <a href="#">
+                        <img src="assets/images/services/service-image-1.jpg" alt="service image" />
+                      </a>
+                      <span className="in-service-side-icon">
+                        <img src="assets/images/icons/details-down.png" alt />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/*// Services Details Area */}
+      </div>  
+      );
+}
+
+
+export const TrafficDetail = () => {
+      return (
+      <div>
+        {/* Services Details Area */}
+        <div className="services-details-area in-section section-padding-lg">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-8 pr-0">
+                <div className="service-details-content">
+                  {/* service-details-img */}
+                  <div className="service-details-img" data-black-overlay={4}>
+                    <img src="assets/images/services/service-details-image.jpg" alt="service Details" />
+                  </div>
+                  {/*// service-details-img */}
+                  <div className="car-insurance mt-50">
+                    <h4>KASKO</h4>
+                    <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                  </div>
+                  <blockquote className="service-blockquote mt-50">
+                    <span className="top-overlay" />
+                    <span className="bottom-overlay" />
+                    <p>Deserunt mollit anim id est laborum. Sed ut persp iciatis unde omnis iste naerror sit voluptatem accusantium doloremque laudantium, totam rem aperiaeaque ipsa qura incidunt ut labore et dolore magnam aliquam quae.</p>
+                  </blockquote>
+                  <div className="car-insurance mt-50">
+                    <h4>Get the Right Coverage</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia </p>
+                  </div>
+                  <ul className="ul-style-2">
+                    <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</li>
+                    <li> veniam, quis nostrud exercitation ullamco laboris nisi  <br /> ut aliquip ex ea commodo consequat. Duis </li>
+                    <li> veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <br /> ex ea commodo consequat. Duis </li>
+                  </ul>
+                 
+                  <div className="car-insurance mt-50">
+                    <h4>Neden Kasko Sigortasına İhtiyaç Duyarız?</h4>
+                    <ul className="ul-style-2">
+                      <li>Lorem ipsum dolor sit amet, ciit in voluptate velit esse cillum.</li>
+                      <li>Tempor at. Duis aute irure dolor in reprehenderit in voluptate veldolou fugiat nulla paria turat.</li>
+                      <li>Omnis iste natus error sit voluptatem accusantium doloremque laudantiuquae ab illo inventore veritatis et
+                        quasi dolorem.</li>
+                      <li>Do eiusmod tempor incididunt ut labore et dolore masit amet.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 pl-0 offset-lg-1">
+                <div className="service-widget-categories">
+                  <h4 className="service-widget-title">
+                    <span>Categories</span>
+                  </h4>
+                  <ul className="service-cat-list">
+                    <li><a href="/urunlerimiz/kasko" className="active">Kasko Sigortası</a></li>
+                    <li><a href="/urunlerimiz/hayat">Trafik  Sigortası</a></li>
+                    <li><a href="/urunlerimiz/Konut">Konut Sigortası</a></li>
+                    <li><a href="/urunlerimiz/sağlık">Sağlık Sigortası</a></li>
+                    <li><a href="/urunlerimiz/hayat">Hayat Sigortası</a></li>
+                    <li><a href="/urunlerimiz/seyehat">Seyehat Sigortası</a></li>
+                    <li><a href="/urunlerimiz/nakliyat">Nakliyat-Emtia Sigortası</a></li>
+                   </ul> 
+                  <div className="download-brochure-area">
+                    <h5>Download Brochure</h5>
+                    <p>For emergency help contact us, without any hasitation</p>
+                  </div>
+                  <div className="in-service-side">
+                    <div className="in-service-side-image">
+                      <a href="#">
+                        <img src="assets/images/services/service-image-1.jpg" alt="service image" />
+                      </a>
+                      <span className="in-service-side-icon">
+                        <img src="assets/images/icons/details-down.png" alt />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/*// Services Details Area */}
+      </div>  
+      );
+    }
+
+
+
+export const KonutDetail = () => {
+      return (
+      <div>
+        {/* Services Details Area */}
+        <div className="services-details-area in-section section-padding-lg">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-8 pr-0">
+                <div className="service-details-content">
+                  {/* service-details-img */}
+                  <div className="service-details-img" data-black-overlay={4}>
+                    <img src="assets/images/services/service-details-image.jpg" alt="service Details" />
+                  </div>
+                  {/*// service-details-img */}
+                  <div className="car-insurance mt-50">
+                    <h4>KASKO</h4>
+                    <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                  </div>
+                  <blockquote className="service-blockquote mt-50">
+                    <span className="top-overlay" />
+                    <span className="bottom-overlay" />
+                    <p>Deserunt mollit anim id est laborum. Sed ut persp iciatis unde omnis iste naerror sit voluptatem accusantium doloremque laudantium, totam rem aperiaeaque ipsa qura incidunt ut labore et dolore magnam aliquam quae.</p>
+                  </blockquote>
+                  <div className="car-insurance mt-50">
+                    <h4>Get the Right Coverage</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia </p>
+                  </div>
+                  <ul className="ul-style-2">
+                    <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</li>
+                    <li> veniam, quis nostrud exercitation ullamco laboris nisi  <br /> ut aliquip ex ea commodo consequat. Duis </li>
+                    <li> veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <br /> ex ea commodo consequat. Duis </li>
+                  </ul>
+                 
+                  <div className="car-insurance mt-50">
+                    <h4>Neden Kasko Sigortasına İhtiyaç Duyarız?</h4>
+                    <ul className="ul-style-2">
+                      <li>Lorem ipsum dolor sit amet, ciit in voluptate velit esse cillum.</li>
+                      <li>Tempor at. Duis aute irure dolor in reprehenderit in voluptate veldolou fugiat nulla paria turat.</li>
+                      <li>Omnis iste natus error sit voluptatem accusantium doloremque laudantiuquae ab illo inventore veritatis et
+                        quasi dolorem.</li>
+                      <li>Do eiusmod tempor incididunt ut labore et dolore masit amet.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 pl-0 offset-lg-1">
+                <div className="service-widget-categories">
+                  <h4 className="service-widget-title">
+                    <span>Categories</span>
+                  </h4>
+                  <ul className="service-cat-list">
+                    <li><a href="/urunlerimiz/kasko" className="active">Kasko Sigortası</a></li>
+                    <li><a href="/urunlerimiz/hayat">Trafik  Sigortası</a></li>
+                    <li><a href="/urunlerimiz/Konut">Konut Sigortası</a></li>
+                    <li><a href="/urunlerimiz/sağlık">Sağlık Sigortası</a></li>
+                    <li><a href="/urunlerimiz/hayat">Hayat Sigortası</a></li>
+                    <li><a href="/urunlerimiz/seyehat">Seyehat Sigortası</a></li>
+                    <li><a href="/urunlerimiz/nakliyat">Nakliyat-Emtia Sigortası</a></li>
+                   </ul> 
+                  <div className="download-brochure-area">
+                    <h5>Download Brochure</h5>
+                    <p>For emergency help contact us, without any hasitation</p>
+                  </div>
+                  <div className="in-service-side">
+                    <div className="in-service-side-image">
+                      <a href="#">
+                        <img src="assets/images/services/service-image-1.jpg" alt="service image" />
+                      </a>
+                      <span className="in-service-side-icon">
+                        <img src="assets/images/icons/details-down.png" alt />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/*// Services Details Area */}
+      </div>  
+      );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Nav, Menu, Slider, Breadcrumb,Footer, Product, Teklif, Rehber, Kaydırak } from "../Partials/Ui";
+import { Nav, Menu, Slider, Breadcrumb,Footer, Product, Teklif, Rehber, Kaydırak, Rehberlik } from "../Partials/Ui";
 
 const Home = () => {
   return (
@@ -13,7 +13,7 @@ const Home = () => {
       <Kaydırak/>
       <Product/>
       <Teklif/>
-      <Rehber/> 
+      <Rehberlik/> 
       <Footer/>
     </div>
   );
